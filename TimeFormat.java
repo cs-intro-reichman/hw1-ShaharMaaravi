@@ -15,18 +15,18 @@ public class TimeFormat {
         if(hours > 12){
 			hours = hours - 12; 
 			if(minutes > 9){
-				System.err.println(hours + ":" + minutes + " PM");
+				System.out.println(hours + ":" + minutes + " PM");
 			}
 			else{ 
-				System.err.println(hours + ":0" + minutes + " PM");
+				System.out.println(hours + ":0" + minutes + " PM");
 			}
 		}
 		else{
 			if(minutes > 9){
-				System.err.println(hours + ":" + minutes + " AM");
+				System.out.println(hours + ":" + minutes + " AM");
 			}
 			else{ 
-				System.err.println(hours + ":0" + minutes + " AM");
+				System.out.println(hours + ":0" + minutes + " AM");
 			}
 		}
 	}
