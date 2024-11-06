@@ -10,6 +10,6 @@ public class Bill3 {
 		sum = sum/3;
 		sum = Math.ceil(sum);
 
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " + sum + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + sum + " Shekels each");
 	}
 }
